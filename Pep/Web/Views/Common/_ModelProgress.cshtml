@@ -1,0 +1,38 @@
+﻿@using System.Globalization
+@using System.Resources;
+@using System.Text.Encodings.Web;
+@using Omilios.Web.Portal.App_GlobalResources;
+<div id="ajaxLoader" style="display:none;">
+    <div id="ProgressBackgroundFilter"></div>
+    <div id="ProgressMessage">
+        <div id="lblMessage">@Resources.Label_Load</div><br />
+        <div id="ProgressIcon" class="k-loading-image">&nbsp;</div><br />
+    </div>
+</div>
+<script type="text/javascript">
+
+    var spinnerVisible = false;
+    function showProgress() {
+        if (!spinnerVisible) {
+            $("#ajaxLoader").show();
+            spinnerVisible = true;
+        }
+    };
+
+    function showCustomProgress(message) {
+        if (!spinnerVisible) {
+            $("#ajaxLoader").show();
+            $("#lblMessage").html(message);
+            spinnerVisible = true;
+        }
+    };
+
+    function hideProgress() {
+        if (spinnerVisible) {
+            var spinner = $("#ajaxLoader");
+            spinner.stop();
+            spinner.hide();
+            spinnerVisible = false;
+        }
+    };
+</script>

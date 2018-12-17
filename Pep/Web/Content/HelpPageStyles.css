@@ -1,0 +1,27 @@
+﻿.editableContent ul, ul{
+    list-style: inside;
+    margin: inherit;
+    padding: inherit;
+}
+.editableContent ol, ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+em, .editableContent em{
+    font-style: italic;
+}
+
+strong, .editableContent strong{
+    font-weight: bold;
+}
+
+sub, .editableContent sub{
+    font-size: smaller;
+    vertical-align: sub;
+}
+
+sup, .editableContent sup{
+    font-size: smaller;
+    vertical-align: super;
+}

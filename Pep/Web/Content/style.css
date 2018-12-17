@@ -1,0 +1,561 @@
+html{
+    /* margin-bottom: 50px;  */
+    overflow-x: hidden;
+
+}
+
+/* For Body  */
+body{
+    background-color: #F3F3F3;
+  /* margin-bottom: 20px; */
+}
+/* Deloitte brand dot color  */
+.dot{
+    color: #86BC25;
+    font-size: xx-large;
+}
+
+/* For Navigation Hover  */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #86BC25;
+    border-radius: 3px;
+}
+
+/* For Deloitte Brand  */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* For Navigation lables  */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+/* No hover efftcs  */
+.noHover{
+    pointer-events: none;
+}
+
+/* To clear the border radius & margin bottom  */
+.navbar {
+    border-radius : inherit;
+    margin-bottom: 2px;;
+}
+
+/* Different Margin levels  */
+.marginTopFifty{
+    margin-top:50px;
+}
+.marginTopTen{
+    margin-top:10px;
+}
+.marginBottomTen{
+    margin-bottom:10px;
+}
+.marginleftThirtyNine{
+    margin-left:39.5%;
+}
+.marginleftSeventyFour{
+    margin-left: 74.3%;
+}
+.marginleftEightyThree{
+    margin-left: 83%;
+}
+.marginleftNintyFive {
+    margin-left: 95%;
+}
+.marginleftNegativeFifteen{
+    margin-left: -15px;
+}
+.marginleftNine{
+    margin-left: 9.5%;
+}
+.marginleftFive{
+    
+    margin-left: 5%;
+}
+.marginleftEightyTwo {
+    margin-left: 82.5%;
+}
+/* Second Menu Bar Customisation */
+.navbar-default {
+    background-color: #fff;
+    border-color: #000;
+    font-weight: bold;
+}
+
+/* For Table Background  */
+.table{
+    background-color: #fff;
+}
+
+/* For Pagination: taking left align with table  */
+.pagination {
+    /* margin: 0px 0px 0px -15px; */
+    /* margin: 0px 0px 0px 40px; */
+    margin:25px 0px 0px -10px;
+}
+
+/* Custom button  */
+.btn-custom-primary{
+    color: #fff;
+    background-color: #8FAADC;
+    border-color: #2F528F;
+}
+.btn-custom-primary:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn-custom-black{
+    color: #fff;
+    background-color: #000;
+    float: right;
+}
+.btn-custom-black:hover{
+    border-color: #000 ;
+    background-color: #fff;
+    color: #000;
+    float: right;
+    font-weight:bold;
+}
+.btn-custom-white{
+    
+    color: #000;
+    background-color: #e6e9ed;
+}
+.btn-custom-white:hover{
+    color:  #e6e9ed;
+    background-color:#000 ;
+    font-weight:bold;
+    
+}
+.btn-custom-black-border{
+    border-color: #000 ;
+    background-color: #fff;
+    color: #000;
+    float: left;
+    font-weight:bold;   
+}
+
+/* button green  */
+.btn-custom-success{
+    color: #fff;
+    background-color: #86BC25;
+    border-color: #86BC25;
+}
+.btn-custom-success:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+/* Border Top for Cancel and Save button */
+.marginTopThree{
+    border-top: 3px solid #ddd;
+    background-color: #FFF;
+}
+
+/* padding for black and white button  */
+.customPadBlkWhitebtn{
+    padding: 10px 40px 10px 40px;
+}
+.marginTopTwenty{
+    margin-top: 20px;
+}
+
+/* Table header background color  */
+thead{
+    /* background-color: #E2EFDA; */
+}
+.imgBorder{
+         border-radius: 5px;
+ }
+/* For Underlining the second navigation bar  */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    border-bottom: 3px solid #86BC25;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+/* Keeping table header at the center  */
+/* thead  th{
+        text-align: center;
+} */
+
+#users-tab2-dt thead  th {
+        text-align: center;
+}
+
+/*To keep footer at the bottom  */
+footer {   
+    /* background-color: #000;   
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 100%; */
+
+
+    position: fixed; 
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;    
+}
+
+/* Client Table  */
+/* #client-tab2-dt > thead > tr > th {
+         border-top: none;
+} */
+#client-tab2-dt > thead > tr > th, #client-tab2-dt > tbody > tr > th, #client-tab2-dt > tfoot > tr > th, #client-tab2-dt > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td,
+#client-tab3-dt > thead > tr > th, #client-tab3-dt > tbody > tr > th, #client-tab3-dt > tfoot > tr > th, #client-tab3-dt > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td,
+#userSummary-tab5-d > thead > tr > th, #userSummary-tab5-d > tbody > tr > th, #userSummary-tab5-d> tfoot > tr > th, #userSummary-tab5-d > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    /* border-top: none; */
+}
+#client-tab2-dt > tbody > tr > th, #client-tab3-dt > tbody > tr > th,#client-tab4-dt > tbody > tr > th{
+    background-color: #E2EFDA;
+    border: 1px solid #ddd;
+}
+
+/* breadcrumb style  */
+
+.breadcrumb-arrow {
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    list-style: none;
+     background-color: #e6e9ed 
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top;
+    /* color: #434a54; */
+    font-weight: bold;
+    font-size: medium;
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    background-color:#E2EFDA ;
+    border: 1px solid #E2EFDA
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #E2EFDA;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #2494be
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #E2EFDA;
+    border: 1px solid #E2EFDA
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color: #E2EFDA
+}
+.breadcrumb-arrow li a:active {
+    background-color: #E2EFDA;
+    border: 1px solid #E2EFDA
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #E2EFDA
+}
+/* .breadcrumb-arrow li span {
+    color: #434a54;
+    font-weight: bold;
+    font-size: x-large;
+} */
+/* /. breadcrumb style  */
+
+
+/* Button box shadow  */
+.btn-circular{
+    /* box-shadow: 10px -10px #CCC;     */
+    box-shadow: 4px 1px 2px 1px rgba(0,0,0,0.1);
+}
+
+/* Modal Header  */
+.modal-header{
+    text-align: center;
+    /* background-color:#e6f7c8; */
+    background-color:#F0F0F0;
+    border-radius: 4px;
+}
+/* Background header color  */
+.bgHeader{
+     background-color:#E2EFDA; 
+    /* background-color:#e6f7c8; */
+}
+
+
+
+/* For Inner Table  */
+.txtCentrBoldweight{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Border radius to user table  */
+#users-tab2-dt, #clientSummary-tab4-dt, #client-tab1-dt{
+     /* border: 2px solid #a1a1a1;
+    padding: 10px 40px; */
+   border-radius: 10px;
+   box-shadow: 0 0px 10px 0 #cecece;
+    /* box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4); */
+}
+#clientSummary-tab4-dt > thead > tr > th,#clientSummary-tab4-dt > thead > tr > th, #clientSummary-tab4-dt > tbody > tr > th, #clientSummary-tab4-dt > tfoot > tr > th, #clientSummary-tab4-dt > thead > tr > td, #clientSummary-tab4-dt > tbody > tr > td, #clientSummary-tab4-dt> tfoot > tr > td,
+#users-tab2-dt > thead > tr > th,#users-tab2-dt > thead > tr > th, #users-tab2-dt > tbody > tr > th, #users-tab2-dt > tfoot > tr > th, #users-tab2-dt > thead > tr > td, #users-tab2-dt > tbody > tr > td, #users-tab2-dt> tfoot > tr > td
+,#client-tab1-dt > thead > tr > th,#client-tab1-dt > thead > tr > th, #client-tab1-dt > tbody > tr > th, #client-tab1-dt > tfoot > tr > th, #client-tab1-dt > thead > tr > td, #client-tab1-dt > tbody > tr > td, #client-tab1-dt> tfoot > tr > td{
+    border-top: none;
+    border-bottom: none;
+}
+
+
+/* Card Layout  */
+.cardLayout{
+    background-color: #fff;
+    border-radius: 15px;
+    /* border: 1px solid #ddd; */
+}
+.cardLayout-success{
+   border-top: 10px solid #86BC25;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4)
+}
+.cardLayout-warning{
+   border-top: 10px solid #ec971f;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4)
+}
+
+#client-tab1-dt{
+    box-shadow: 0 0px 10px 0 #cecece;
+}
+
+#second_chosen{
+    width: 370px ;
+    /* display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff ! important;
+    background-image: none ! important;
+    border: 1px solid #ccc ! important;*/
+    /* border-radius: 4px ! important;
+    background-color: #fff ! important;
+    background-image: none ! important;
+    border: 1px solid #ccc ! important;  */
+}
+
+/* Custom select 2 selection  */
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #E2EFDA ! important;;
+    border: 1px solid #E2EFDA ! important;;
+    padding: 0 2px ! important;;
+}
+
+/* Background-color white  */
+.bgWhite{
+    background-color: white; 
+}
+.paddTopBotTen{
+    padding: 10px 0px 10px 0px;
+}
+.paddTopBotFifteenRtFifty{
+    padding: 15px 50px 15px 0px
+}
+
+.paddTwenty{
+    padding: 20px !important;
+}
+
+.boldWeight{
+    font-weight:bold !important;
+}
+.paddSeventeen{
+    padding: 17px !important;
+}
+
+/* Bootstrap Calender style  */
+.datepicker-dropdown {
+  top: 0;
+  left: 0;
+  padding: 4px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.datepicker table {
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+.datepicker table tr td,
+.datepicker table tr th {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  color: #000;
+}
+
+
+/* .datepicker table tr td.day:hover, 
+.datepicker table tr td.focused */
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td.focused {
+  background: #fff !important;
+  cursor: pointer;
+  color: #000;
+}
+.datepicker table tr td.old,
+.datepicker table tr td.new {
+  color: #FF8000;
+}
+
+.datepicker table tr td.today {
+  color: #000000;
+  background-color: #FFA953;
+  border-color: #FFB76F;
+}
+.datepicker table tr td.today:hover {
+  color: #FFFFFF;
+  background-color: #884400;
+  border-color: #f59e00;
+}
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.open > .dropdown-toggle.datepicker table tr td.active,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted {
+  color: #ffffff;
+  background-color: #419841;
+  border-color: #285e8e;
+}
+
+
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:hover,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.highlighted.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted.focus {
+  color: #ffffff;
+  background-color: #285e8e;
+  border-color: #193c5a;
+}
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.open > .dropdown-toggle.datepicker table tr td.active,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted {
+  color: #ffffff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:hover,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.highlighted.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted.focus {
+  color: #ffffff;
+  background-color: #285e8e;
+  border-color: #193c5a;
+}
+.datepicker .datepicker-switch {
+  width: 145px;
+  
+}
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background: #50A2C9;
+  color: #000000;
+}
